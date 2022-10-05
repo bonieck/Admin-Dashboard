@@ -108,7 +108,7 @@ aside{
     height: 100vh;
 }
 aside .top{
-    background: white;
+    background: var(--color-background);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -127,7 +127,7 @@ aside .logo img{
 }
 /*===SIDEBAR===*/
 aside .sidebar{
-    background: white;
+    background: var(--color-background);
     display: flex;
     flex-direction: column;
     height: 86vh;
@@ -181,11 +181,10 @@ aside .sidebar a:hover span{
 aside .sidebar .message-count{
     background: var(--color-danger);
     color: var(--color-white);
-    padding: 2px 8px;
+    padding: 2px 10px;
     font-size: 11px;
     border-radius: var(--border-radius-1);
 }
-aside .sidebar .message-count
 
 /*=============== MAIN ==============*/
 main{
